@@ -1,0 +1,122 @@
+body {
+  background-color: rgba(31, 55, 126, 0.789);
+  margin: 0;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainDiv {
+  width: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 650;
+  position: relative;
+  margin: 50px auto;
+  border: 2px solid rgba(0, 0, 0, 0.741);
+}
+
+.mainDiv.light {
+  background-color: aliceblue;
+  color: black;
+}
+
+.mainDiv.dark {
+  background-color: rgba(20, 20, 63, 0.762);
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-style {
+  margin: 5px 0px 5px 10px;
+  height: 35px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.btn-style.light {
+  background-color: rgba(31, 55, 126, 0.789);
+  color: white;
+}
+
+.btn-style.dark {
+  background-color: aliceblue;
+}
+
+.filter {
+  width: 30%;
+}
+
+.addTaskDiv {
+  width: 320px;
+  border-radius: 10px;
+  font-weight: 650;
+  margin: 10% auto;
+}
+
+.light {
+  background-color: aliceblue;
+}
+
+.dark {
+  background-color: rgba(20, 20, 63, 0);
+}
+
+.searchDiv {
+  width: 320px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 240px;
+  height: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.741);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+[type="text"]:focus {
+  outline: 0;
+  border: 2px solid rgba(0, 0, 0, 0.738);
+}
+
+li {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.751);
+  border-radius: 10px;
+  background-color: white;
+}
+
+[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: white;
+  width: 25px;
+}
+
+ul {
+  margin: 10px 0px 10px 0px;
+  padding: 0;
+}
+
+h2,
+h3 {
+  margin: 10px 0px 5px 0px;
+}
+
+.search {
+  width: 310px;
+}
+
+div:focus {
+  background-color: rgba(31, 55, 126, 0.518);
+}
